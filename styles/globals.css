@@ -1,65 +1,16 @@
-
 html,
 body {
   padding: 0;
   margin: 0;
-  max-width: 100vw;
-  width: 100%;
-  background-color: black;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
-video {
-  object-fit: cover;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  z-index: 0;
-  opacity: 0.72;
-  background-color: black;
+a {
+  color: inherit;
+  text-decoration: none;
 }
 
-.news > a {
-  color: white;
-  text-decoration:underline;
-  font-size: 1.2em;
-}
-
-.container
-{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-}
-
-.news {
-  text-align: center;
-  font-size: 1em;
-}
-
-.box
-{
-  padding: 0.1vh 2vw;
-  font-size: 5vw;
-  font: -apple-system, system-ui, sans-serif;
-  color: whitesmoke;
-  z-index: 1;
-}
-
-.box > *
-{
-  opacity: 1;
-}
-
-a
-{
-  color: whitesmoke;
-}
-
-a:visited
-{
-  color: whitesmoke;
+* {
+  box-sizing: border-box;
 }
